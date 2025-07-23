@@ -11,8 +11,9 @@ Useful, active, and ready for reuse or learning.
 
 | Script     | Description     |
 | ------------- | ------------- | 
-|- [`Bulk-ADUser-Creator`](/Bulk-ADUser-Creator) | Imports and creates AD user accounts from a structured CSV.|
-|- [`Monitor-Fileage`](/Monitor-Fileage) | Tracks file age in target folders and logs when cleanup thresholds are reached. |
+|- [`AD-GUI-User-Creator`](https://github.com/springbok104/AD-GUI-User-Creator) | Click-to-create AD accounts with smart logic and template-driven provisioning. |
+|- [`Bulk-ADUser-Creator`](https://github.com/springbok104/AD-GUI-User-Creator) | Imports and creates AD user accounts from a structured CSV.|
+|- [`Monitor-Fileage`](https://github.com/springbok104/Monitor-Fileage) | Tracks file age in target folders and logs when cleanup thresholds are reached. |
 |- [`Watch-JobDescription`](./current-utility-scripts/Watch-JobDescription.ps1) | Monitors a designated folder for new HR job files and sends notifications. |
 |- [`AD-Password-Expiry-Checker`](./current-utility-scripts/AD-Password-Expiry-Checker.ps1) | Lists AD accounts with approaching password expiry dates. |
 |- [`JSON-To-CSV-Converter`](./current-utility-scripts/JSON-To-CSV-Converter.ps1) | Converts JSON arrays to readable CSV format with optional field filtering. |
@@ -28,8 +29,8 @@ Scripts with older dependencies or may not be as relevant today.
 | Script     | Description     |
 | ------------- | ------------- | 
 |- [`Hyperv-Deployment`](./legacy-automation-examples/Hyperv-Deployment.ps1) | Automates creation of Hyper-V VMs from CSV input, with naming, folder setup, and ISO selection. |
-|- [`SQL-GUI-Backup`](./legacy-automation-examples/SQL-GUI-Backup.ps1)  | Launches a basic GUI to trigger SQL Server backups across multiple hosts or instances. |
-|- [`Silent-Software-Installer`](/Silent-Software-Installer)  | Performs unattended installs of common desktop apps with system tweaks and cleanup steps. |
+|- [`SQL-GUI-Backup`](https://github.com/springbok104/SQL-GUI-Backup)  | Launches a basic GUI to trigger SQL Server backups across multiple hosts or instances. |
+|- [`Silent-Software-Installer`](https://github.com/springbok104/Silent-Software-Installer)  | Performs unattended installs of common desktop apps with system tweaks and cleanup steps. |
 
 ---
 
