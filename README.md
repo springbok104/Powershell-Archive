@@ -1,13 +1,10 @@
-# 🛠️ PowerShell Tools
+## 🗃️ PowerShell Archive
 
-An older collection of scripts I've put together to automate processes - from file watching to Active Directory onboarding. These aren't shiny demos; they’re solutions built around real needs and use cases. Some are still handy. Most are commented, scoped, and readable… with a few quirks.
+An older set of scripts built to solve real problems, from onboarding users in Active Directory to monitoring file behavior across machines. These aren’t demo-perfect but they’re functional, focused, and often surprisingly handy. Most are scoped, commented, and readable… quirks and all.  
 
 ---
 
 ## 📁 Repository Structure
-
-### `current-utility-scripts`  
-Useful, active, and ready for reuse or learning.
 
 | Script     | Description     |
 | ------------- | ------------- | 
@@ -19,19 +16,8 @@ Useful, active, and ready for reuse or learning.
 |- [`JSON-To-CSV-Converter`](./current-utility-scripts/JSON-To-CSV-Converter.ps1) | Converts JSON arrays to readable CSV format with optional field filtering. |
 |- [`NIC-Info-Exporter`](./current-utility-scripts/NIC-Info-Exporter.ps1)  | Exports local NIC configuration data for inventory or auditing. |
 |- [`System-Cleanup-Tool`](./current-utility-scripts/System-Cleanup-Tool.ps1) |  Runs temp file removal, log pruning, and system tweaks on Windows machines. |
-
-
----
-
-### `legacy-automation-examples`  
-Scripts with older dependencies or may not be as relevant today.
-
-| Script     | Description     |
-| ------------- | ------------- | 
 |- [`Hyperv-Deployment`](./legacy-automation-examples/Hyperv-Deployment.ps1) | Automates creation of Hyper-V VMs from CSV input, with naming, folder setup, and ISO selection. |
 |- [`SQL-GUI-Backup`](https://github.com/springbok104/SQL-GUI-Backup)  | Launches a basic GUI to trigger SQL Server backups across multiple hosts or instances. |
 |- [`Silent-Software-Installer`](https://github.com/springbok104/Silent-Software-Installer)  | Performs unattended installs of common desktop apps with system tweaks and cleanup steps. |
 
 ---
-
-

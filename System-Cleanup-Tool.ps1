@@ -35,7 +35,7 @@
     Tested on: Windows 10 / Windows Server 2016  
     Useful for post-deployment cleanup, system prep, or freeing up disk space before imaging.
 
-    Variable guidance:
+    Variables:
     - $DaysToDelete: Files older than this number of days will be deleted (default: 365).
     - $VerbosePreference: Controls whether verbose output is shown (default: "Continue").
 #>

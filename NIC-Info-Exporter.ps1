@@ -24,9 +24,9 @@
     - NetworkAdapter and DnsClient modules (built-in on Windows Server 2012+)
 
 .NOTES
-    Useful for auditing DNS registration settings across domain-joined servers.
+    Useful for auditing DNS registration settings across domain joined servers.
 
-    Variable guidance:
+    Variables:
     - $csv_file: Full path to the CSV file containing the list of servers.
     - $hostname_property: Column name in the CSV that contains the server hostnames or IPs.
     - $addtoCSV: Set to $true to write results back into the CSV.

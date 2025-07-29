@@ -11,7 +11,7 @@
         3. Build a report listing the old files found and their age criteria.
         4. Send the report to a configured email recipient using SMTP authentication.
 
-    SETTINGS OVERVIEW:
+    VARIABLES:
         - `$minutesOld`      : Number of minutes after which a file is considered "old".
         - `$folder`          : Full path of the folder to monitor.
         - `$searchType`      : Set to `"pattern"` to enable filename pattern matching via `$searchPattern`; leave blank to use extension filtering only.

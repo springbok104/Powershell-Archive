@@ -24,10 +24,10 @@
 .NOTES
     Useful for hybrid or on-prem AD environments to proactively manage password hygiene.
 
-    Variable guidance:
+    Variables:
     - $scope: Set this to the number of days after which a password is considered stale (e.g. 90).
     - $logtoCSV: If set to $true, results will be exported to the path in $csvpath.
-    - $smtpserver / $smtpport / $smtpuser / $smtppass: Configure these for your SMTP environment.
+    - $smtpserver / $smtpport / $smtpuser / $smtppass: Configure these for your SMTP server.
 #>
 
 #Variables:
@@ -119,7 +119,7 @@ foreach ($i in $UserList){                                                      
                     }
 
                 if ($SMTP_Password -eq $null){      
-                    write-host "Sending email for $name" -f Green                                                          #If the $SMTP_Password field is emtpy, don't send with authentication (from within an organisation)
+                    write-host "Sending email for $name" -f Green                                          #If the $SMTP_Password field is emtpy, don't send with authentication (from within an organisation)
                     Send-Mailmessage -smtpServer $SMTP_Server -from $SMTP_From -to $emailaddress -subject $SMTP_Subject -body $body -bodyasHTML -priority High -Encoding $textEncoding
                     }
                 }

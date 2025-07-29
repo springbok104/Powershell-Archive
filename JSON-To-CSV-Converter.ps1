@@ -33,7 +33,7 @@
 .NOTES
     Useful for transforming time-series sensor or telemetry data into a flat, analyzable format.
 
-    Variable guidance:
+    Variables:
     - $import: Full path to the input JSON file.
     - $export: Full path to the output CSV file.
 #>
