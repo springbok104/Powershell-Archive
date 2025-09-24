@@ -14,17 +14,15 @@ Old freelance scripts. Messy in places, useful in others. Some are pinned, most 
 | [`./sql-gui-backup`](./sql-gui-backup) | GUI tool for triggering SQL Server backups across multiple hosts. |
 | [`./silent-software-installer`](./silent-software-installer) | Unattended installs of common desktop apps with system tweaks. |
 
----
-
 ## 📄 Utility Scripts (Flat Files)
 
 | Script | Description |
 |--------|-------------|
-| [`./watch-jobdescription.ps1`](./watch-jobdescription.ps1) | Monitors HR folder for new job files and sends notifications. |
-| [`./ad-password-expiry-checker.ps1`](./ad-password-expiry-checker.ps1) | Lists AD accounts with approaching password expiry. |
-| [`./json-to-csv-converter.ps1`](./json-to-csv-converter.ps1) | Converts JSON arrays to readable CSV format with optional filtering. |
-| [`./nic-info-exporter.ps1`](./nic-info-exporter.ps1) | Exports NIC configuration data for inventory or audit. |
-| [`./system-cleanup-tool.ps1`](./system-cleanup-tool.ps1) | Removes temp files, prunes logs, and applies system tweaks. |
+| [`./ad-password-expiry.ps1`](./ad-password-expiry.ps1) | Lists AD accounts with approaching password expiry. |
+| [`./json-to-csv.ps1`](./json-to-csv.ps1) | Converts JSON arrays to readable CSV format with optional filtering. |
+| [`./nic-info.ps1`](./nic-info.ps1) | Exports NIC configuration data for inventory or audit. |
+| [`./system-cleanup.ps1`](./system-cleanup.ps1) | Removes temp files, prunes logs, and applies system tweaks. |
 | [`./hyperv-deployment.ps1`](./hyperv-deployment.ps1) | Automates Hyper-V VM creation from CSV input. |
+| [`./watch-jobdescription.ps1`](./watch-jobdescription.ps1) | Monitors HR folder for new job files and sends notifications. |
 
 ---
